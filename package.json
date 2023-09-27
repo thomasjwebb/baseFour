@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "lix": "^15.12.0"
+  },
+  "scripts": {
+    "build": "npx lix download && npx haxe build.hxml"
+  }
+}

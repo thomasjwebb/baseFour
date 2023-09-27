@@ -27,7 +27,5 @@ class Main
         }
         // Browser.window.onload = updateDisplay;
         input.oninput = updateDisplay;
-        // var x = new Number(255);
-        // trace(x.baseFour(Nucleobase));
     }
 }
