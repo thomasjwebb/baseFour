@@ -21,6 +21,9 @@ class Main
                 outputs.push({label: "Suits", value: number.baseFour(Suits)});
                 outputs.push({label: "Nucleobases", value: number.baseFour(Nucleobase)});
                 outputs.push({label: "Ventureño Chumash", value: number.baseFour(Ventureno)});
+                outputs.push({label: "Arabic Octal", value: number.octal()});
+                outputs.push({label: "Yuki", value: number.baseFour(Yuki)});
+                outputs.push({label: "Northern Pame", value: number.baseFour(NorthernPame)});
                 [for (pair in outputs) '<b>${pair.label}:</b> ${pair.value}'].join("<br />\n");
             }
             output.innerHTML = innerHTML;
